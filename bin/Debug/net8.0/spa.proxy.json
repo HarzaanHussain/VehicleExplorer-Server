@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:55803",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\Harzaan Hussain\\source\\repos\\VehicleExplorer\\VehicleExplorer.Server\\..\\vehicleexplorer.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

@@ -1,0 +1,6 @@
+@VehicleExplorer.Server_HostAddress = http://localhost:5162
+
+GET {{VehicleExplorer.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
