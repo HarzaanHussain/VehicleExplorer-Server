@@ -31,8 +31,8 @@ namespace VehicleExplorer.Server.Services
             var expires = DateTime.Now.AddDays(1);
 
             var token = new JwtSecurityToken(
-                issuer: _configuration["JWT:ValidIssuer"],
-                audience: _configuration["JWT:ValidAudience"],
+                issuer: _configuration["JWT:Issuer"],
+                audience: _configuration["JWT:Audience"],
                 claims: claims,
                 expires: expires,
                 signingCredentials: creds

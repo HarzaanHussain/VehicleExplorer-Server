@@ -168,7 +168,6 @@ namespace VehicleExplorer.Server.Controllers
             }
         }
 
-        // Helper method to split CSV line correctly handling quoted values
         private static string[] SplitCsvLine(string line)
         {
             var result = new List<string>();
@@ -192,7 +191,6 @@ namespace VehicleExplorer.Server.Controllers
                 }
             }
 
-            // Add the last field
             result.Add(field.ToString());
             return [.. result];
         }

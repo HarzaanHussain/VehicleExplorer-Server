@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "Y0g/GMrQvPUVGj0BC3VgEMOAZZT6TwkBdlKdMM9zdI4=",
+  "Source": "VehicleExplorer.Server",
+  "BasePath": "_content/VehicleExplorer.Server",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Harzaan Hussain\\source\\repos\\VehicleExplorer\\vehicleexplorer.client\\vehicleexplorer.client.esproj",
+      "Version": 2,
+      "Source": "vehicleexplorer.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
